@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/employees/layout,_N_T_/employees/add/layout,_N_T_/employees/add/page,_N_T_/employees/add"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/employees/add/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/f8fd71025f3cee0233a85d1522f67f3a4237d95769930b120d6322c17f7b86d9/$/employees/add",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/employees/add/page"
+    },
+    "isFallback": false
+  }
+}

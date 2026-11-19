@@ -1,0 +1,10 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/employees/[id]/edit/page": "app/employees/[id]/edit/page.js",
+  "/employees/[id]/page": "app/employees/[id]/page.js",
+  "/employees/add/page": "app/employees/add/page.js",
+  "/employees/page": "app/employees/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/bootstrap.css.css"],"sourcesContent":["@layer theme, bootstrap, app, utilities;\n@import \"bootstrap/dist/css/bootstrap.min.css\" layer(bootstrap);\n"],"names":[],"mappings":"AAAA"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///D:/LatestProjects/FrontendProjects/NextJsSmallProject/components/jquery-setup.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { useEffect } from \"react\";\r\n\r\ndeclare global {\r\n  interface Window {\r\n    $?: JQueryStatic;\r\n    jQuery?: JQueryStatic;\r\n  }\r\n}\r\n\r\nexport default function JQuerySetup() {\r\n  useEffect(() => {\r\n    // jQuery needs a browser document, so load it after hydration.\r\n    import(\"jquery\")\r\n      .then(({ default: jquery }) => {\r\n        window.$ = window.jQuery = jquery;\r\n      })\r\n      .catch((error: unknown) => {\r\n        console.error(\"Could not initialize jQuery.\", error);\r\n      });\r\n  }, []);\r\n\r\n  return null;\r\n}\r\n"],"names":["JQuerySetup","then","default","jquery","window","$","jQuery","catch","error","console"],"mappings":";;;;;AAEA;AAFA;;;AAWe,SAASA;IACtB,IAAA,kNAAS,EAAC;QACR,+DAA+D;QAC/D,iZACGC,IAAI,CAAC,CAAC,EAAEC,SAASC,MAAM,EAAE;YACxBC,OAAOC,CAAC,GAAGD,OAAOE,MAAM,GAAGH;QAC7B,GACCI,KAAK,CAAC,CAACC;YACNC,QAAQD,KAAK,CAAC,gCAAgCA;QAChD;IACJ,GAAG,EAAE;IAEL,OAAO;AACT"}}]
+}
